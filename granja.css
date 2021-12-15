@@ -398,4 +398,16 @@ footer {
     background-color: whitesmoke;
     background-image: url(imagenes/animales.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;}
+
+.razas {margin: 2%}
+
+ul.razas li {
+    list-style-type: none}
+
+
+ul.razas li:before{
+  content: "►";
+    color: green; margin: 3%}
+
+.centrado {text-align: center}
