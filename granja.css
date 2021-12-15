@@ -3,6 +3,75 @@
     padding: 0
 }
 
+header {
+    padding: 2em;
+    text-align: center;
+    background-image: url('./imagenes/bg.jpeg');
+    background-size: cover;
+    background-position: fixed;
+    color: white;
+}
+
+header section {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+article {
+    padding: 0 1em;
+}
+
+section {
+    margin: 1em;
+    padding: 1em;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h3,
+h4 {
+    font-weight: bold;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1140px;
+}
+
+main section:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    padding: 1em 1.5em;
+    background-color: ghostwhite;
+    text-align: right;
+}
+
+@media only screen and (max-width: 576px) {
+
+    footer {
+        text-align: center;
+    }
+}
+
 body {
     font-family: "Concert One"
 }
@@ -96,62 +165,6 @@ body {
     padding: 2
 }
 
-article {
-    padding: 0 1em;
-}
-
-section {
-    margin: 1em;
-    padding: 1em;
-}
-
-header,
-main,
-footer {
-    margin: 0 auto;
-}
-
-header {
-    padding: 2em;
-    text-align: center;
-    background-image: url('./imagenes/bg.jpeg');
-    background-size: cover;
-    background-position: fixed;
-    color: white;
-}
-
-header section {
-    margin: 0 auto;
-    max-width: 640px;
-}
-
-header img {
-    border-radius: 50%;
-    max-width: 150px;
-}
-
-h1 {
-    text-transform: uppercase;
-    margin: 1em 0;
-}
-
-h3 {
-    text-transform: uppercase;
-}
-
-h3,
-h4 {
-    font-weight: bold;
-}
-
-main {
-    max-width: 1140px;
-}
-
-main section:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-}
-
 .compras {
     display: -ms-flexbox;
     display: flex;
@@ -176,12 +189,6 @@ main section:not(:last-child) {
     padding-left: 1em;
 }
 
-footer {
-    padding: 1em 1.5em;
-    background-color: ghostwhite;
-    text-align: right;
-}
-
 @media only screen and (max-width: 768px) {
     .compras {
         display: block;
@@ -191,11 +198,6 @@ footer {
     .compras .precio {
         max-width: 100%;
     }
-}
-
-footer {
-    text-align: center;
-}
 }
 
 .compras .venta {
