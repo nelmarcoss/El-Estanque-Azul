@@ -383,14 +383,19 @@ footer {
     margin-bottom: 2%;
     margin-top: 2%;
     width: 5%;
-    height: 8%}
+    height: 8%
+}
+
 .facebook {
     margin-bottom: 2%;
     margin-top: 2%;
     width: 5%;
-    height: 8%}
+    height: 8%
+}
 
-.pad {padding: 2%}
+.pad {
+    padding: 2%
+}
 
 .cajaanimales {
     display: flex;
@@ -398,16 +403,24 @@ footer {
     background-color: whitesmoke;
     background-image: url(imagenes/animales.jpg);
     background-size: cover;
-    background-repeat: no-repeat;}
+    background-repeat: no-repeat;
+}
 
-.razas {margin: 2%}
+.razas {
+    margin: 2%
+}
 
 ul.razas li {
-    list-style-type: none}
+    list-style-type: none
+}
 
 
-ul.razas li:before{
-  content: "►";
-    color: green; margin: 3%}
+ul.razas li:before {
+    content: "►";
+    color: green;
+    margin: 3%
+}
 
-.centrado {text-align: center}
+.centrado {
+    text-align: center
+}
