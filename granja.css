@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-    background-image: url(https://images3.alphacoders.com/190/thumb-1920-190787.jpg);
+    background-image: url(imagenes/granja.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -391,3 +391,11 @@ footer {
     height: 8%}
 
 .pad {padding: 2%}
+
+.cajaanimales {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    background-image: url(imagenes/animales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
