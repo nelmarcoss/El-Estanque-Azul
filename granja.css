@@ -218,21 +218,18 @@ body {
     margin-bottom: 2%;
     margin-top: 2%;
     width: 30%;
-    height: 40%
 }
 
 .instagram {
     margin-bottom: 2%;
     margin-top: 2%;
     width: 5%;
-    height: 8%
 }
 
 .facebook {
     margin-bottom: 2%;
     margin-top: 2%;
     width: 5%;
-    height: 8%
 }
 
 .pad {
@@ -264,4 +261,18 @@ ul.razas li:before {
 
 .centrado {
     text-align: center
+}
+
+.redesociales {
+    display: flex;
+    flex-direction: row;
+}
+
+.redesociales img {
+    width: 15%;
+    height: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
