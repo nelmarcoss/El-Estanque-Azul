@@ -124,13 +124,6 @@ body {
     height: 70%
 }
 
-.formvisitaguiada {
-    font-size: 30;
-    text-align: center;
-    padding: 5px;
-    background-color: #7c8c44
-}
-
 .imagenes {
     display: flex;
     flex-direction: row;
@@ -274,3 +267,59 @@ ul.razas li:before {
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.formulario {
+  width: 400px;
+  background: #546434 ;
+  padding: 30px;
+  margin: auto;
+  margin-top: 5%; margin-bottom: 5%;
+  border-radius: 4px;
+  color: white;
+  box-shadow: 7px 13px 37px #000; box-sizing: border-box
+}
+
+.formulario h4 {
+  font-size: 28px;
+  margin-bottom: 20px; text-align: center
+}
+
+.cajitas {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 2%;
+  margin-bottom: 16px;
+  border: 1px solid #e7a232;
+  font-size: 18px;
+  color: white;
+}
+
+.formulario p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.formmulario a {
+  color: white;
+  text-decoration: none;
+}
+
+.formmulario a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.formulario .botones {
+  width: 100%;
+  background:  #e7a232   ;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.sexo {text-align: center}
