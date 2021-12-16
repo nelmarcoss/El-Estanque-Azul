@@ -254,20 +254,6 @@ ul.razas li:before {
     text-align: center
 }
 
-.redesociales {
-    display: flex;
-    flex-direction: row;
-}
-
-.redesociales img {
-    width: 15%;
-    height: 60%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
 .formulario {
   width: 400px;
   background: #546434 ;
@@ -323,3 +309,4 @@ ul.razas li:before {
 }
 
 .sexo {text-align: center}
+.redesociales {text-align: center}
