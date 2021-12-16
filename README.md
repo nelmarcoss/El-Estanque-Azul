@@ -4,7 +4,6 @@ Trabajo página web sobre una granja
 
 Por hacer:
 <ul>
-  <li> Menú hamburgesa </li>
-    <li> Arreglar iconos sociales </li>
+  <li> Agregar menu hamburguesa a las demás páginas y arreglarlo </li>
     <li> Mirar teoría grid y hacer la parte de animales así </li>
 </ul>
