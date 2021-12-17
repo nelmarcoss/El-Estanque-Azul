@@ -454,12 +454,12 @@ li a:hover {
 
 .galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    grid-gap: 1em
+    grid-template-columns: repeat(auto-fill, minmax(30vmax, 1fr));
+    grid-gap: 1em; margin-bottom: 2%
 }
 
 .titulorazas {
-    font-size: 30px;
+    font-size: 4vh;
     font-weight: bold;
     position: absolute;
     height: 100%;
@@ -469,21 +469,22 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 90, 0.4);
     color: white;
     opacity: 0;
+    z-index: 1
 }
+
 
 .texto {
     position: relative;
 }
 
 .texto:hover .titulorazas {
-    opacity: 0;
+    opacity: 1;
 }
 
 .texto:hover .imagenrazas {
-    filter: blur(2px);
+    filter: blur(8px); 
 }
 
 .cajainstalaciones {
