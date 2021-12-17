@@ -134,7 +134,6 @@ body {
 
 .imagenes img {
     width: 40%;
-    height: 50%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
@@ -212,8 +211,8 @@ body {
 .granjero1 {
     text-align: center;
     margin-bottom: 2%;
-    margin-top: 2%;
-    width: 30%;
+    margin-top: 1%;
+    width: 30%; border-radius: 100%
 }
 
 .instagram {
@@ -240,7 +239,7 @@ body {
 }
 
 .razas {
-    margin: 2%
+    margin: 1%
 }
 
 ul.razas li {
@@ -249,8 +248,7 @@ ul.razas li {
 
 ul.razas li:before {
     content: "►";
-    color: green;
-    margin: 3%
+    color: green; margin: 3%
 }
 
 .centrado {
@@ -398,7 +396,7 @@ li a:hover {
         height: 100vh;
         background-color: chocolate;
         top: 80px;
-        left: -100%;
+        left: -110%;
         text-align: center;
         transition: all 1s
     }
