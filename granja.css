@@ -170,7 +170,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.avatar {border-radius: 100%}
+.avatar {border-radius: 100%; margin-top: 5%}
 .compras {
     display: -ms-flexbox;
     display: flex;
@@ -340,7 +340,7 @@ ul.razas li:before {
 nav {
     background-color: chocolate;
     height: 80px;
-    width: 100%; position: fixed
+    width: 100%; position: fixed; z-index: 1
 }
 
 .enlace {
@@ -461,7 +461,6 @@ li a:hover {
     background: rgba(0, 0, 90, 0.4);
     color: white;
     opacity: 0;
-    z-index: 1
 }
 
 .texto {
@@ -469,7 +468,7 @@ li a:hover {
 }
 
 .texto:hover .titulorazas {
-    opacity: 1;
+    opacity: 2;
 }
 
 .Elemento:hover .ImagenElemento {
