@@ -9,7 +9,6 @@
 header {
     padding: 2em;
     text-align: center;
-    background-image: url('./imagenes/bg.jpeg');
     background-size: cover;
     background-position: fixed;
     color: white;
@@ -160,6 +159,15 @@ body {
     padding: 2
 }
 
+
+.cuenta {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    background-image: url(imagenes/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .compras {
     display: -ms-flexbox;
     display: flex;
@@ -327,7 +335,7 @@ ul.razas li:before {
 nav {
     background-color: chocolate;
     height: 80px;
-    width: 100%
+    width: 100%; position: fixed
 }
 
 .enlace {
