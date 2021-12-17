@@ -184,7 +184,7 @@ body {
     color: red;
     -ms-flex: 0 0 33.3%;
     flex: 0 0 33.3%;
-    max-width: 33%;
+    max-width: 33%; margin-bottom: 2px
 }
 
 .compras .precio {
@@ -212,7 +212,7 @@ body {
     color: green;
     -ms-flex: 0 0 33.3%;
     flex: 0 0 33.3%;
-    max-width: 33%;
+    max-width: 33%; margin: 
 }
 
  main, footer {
@@ -459,7 +459,7 @@ li a:hover {
 }
 
 .titulorazas {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     position: absolute;
     height: 100%;
@@ -472,7 +472,6 @@ li a:hover {
     background: rgba(0, 0, 90, 0.4);
     color: white;
     opacity: 0;
-    z-index: 1
 }
 
 .texto {
@@ -480,7 +479,7 @@ li a:hover {
 }
 
 .texto:hover .titulorazas {
-    opacity: 1;
+    opacity: 0;
 }
 
 .texto:hover .imagenrazas {
