@@ -335,7 +335,7 @@ ul.razas li:before {
 nav {
     background-color: chocolate;
     height: 80px;
-    width: 100%; position: fixed
+    width: 100%;
 }
 
 .enlace {
