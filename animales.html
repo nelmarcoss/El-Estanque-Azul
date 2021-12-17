@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav>
+   <nav>
         <input type="checkbox" id="check"/>
         <label for="check" class="checkbox">
             <i class="fas fa-bars"></i>
@@ -20,45 +20,80 @@
             <img src="imagenes/favicon.png" class="logo">
         </a>
         <ul>
-            <li> <a  href="index.html"> Inicio </a> </li>
-            <li> <a href="animales.html"> Animales </a> </li>
+            <li> <a href="index.html"> Inicio </a> </li>
+            <li> <a class="activa" href="animales.html"> Animales </a> </li>
             <li> <a href="equipo.html"> Equipo </a> </li>
             <li> <a href="cuenta.html"> Cuenta </a> </li>
         </ul>
     </nav>
-    <header class="cajaindex">
+    <header class="cajaanimales">
 
-        <h1 class="titulo"> El estanque azul</h1>
+        <h1 class="titulo"> Nuestros animales </h1>
         <section>
-            <p class="subtitulo"> Desde 1916 </p>
+            <p class="subtitulo"> </p>
         </section>
     </header>
     <main>
         <section>
-            <h3 class="titulosecciones">Nuestra granja</h3>
             <article class='cuerposecciones'>
-                <h4>La granja tiene una longitud de 4 hectareas, perfectas para que los animales puedan criarse y vivir en plena armonia y poder maximizar sus facultades. Nos dedicamos tanto a la cria de animales para su posterior venta como a la produccion de alimentos y carne de estos. Al principio, estos terrenos no estaban edificados, pero, en 1916, nuestros antepasados decidieron empezar una granja, la cual sigue hasta día de hoy, aunque mucho más modernizada. A parte de estas labores, en nuestror terrenos tambien nos dedicamos al cultivo de diferentes tipos, como, por ejemplo, el trigo. Si quereís conocer mas acerca de nuestra historia e instalaciones, no dudeis en rellenar el formulario para hacer una visita guiada.</h4>
-                <div class="imagenes"> <img src="imagenes/nuestragranja.jpg"> <img src="imagenes/nuestragranja2.jpg"> </div>
+                <h3 class="centrado">Tenemos una amplia selección de animales, los cuales pueden ser visitados determinados días (miércoles y viernes). A continuación podreís ver fotos e información acerca de nuestro ganado.</h3>
             </article>
         </section>
         <section>
-            <h3 class="titulosecciones">Contacto y ubicación</h3>
+            <h3 class="titulosecciones">Nuestras Vacas</h3>
             <article class='cuerposecciones'>
-                <p class="horario"> LUNES A VIERNES DE 8:30 A 15:00 Y DE 17:00 A 22:00 </p>
-                <p class="horario">Número de teléfono: <u>985634578</u> </p>
-                <div class="ubicacion"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5807.741098418836!2d-6.22712309999999!3d43.29603255000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd36c7e87edfee17%3A0xc288123bb29f9ee6!2s33837%20Corias%2C%20Asturias!5e0!3m2!1ses!2ses!4v1638809173414!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+                <h4>Tenemos dos tipos de ganado vacuno. Las de raza Holstein y las de raza Asturiana de los valles. A continuación os dejaremos una breve descripción de cada una y sus respectivas fotos:</h4>
+                <div>
+                    <ul class="razas">
+                        <li class="razas">Holstein: La raza Holstein tiene su origen en Holanda. Son las mejores productoras de leche y por su alta producción no soportan los climas tropicales. Se caracterizan por su color habitual blanco con negro. Pueden llegar a pesar entre 600 y 650 kg. </li>
+                        <li class="razas">Asturiana de los valles: También se les conoce como "Roxa", en bable, por el color de su pelo. Se cría en pequeñas explotaciones tradicionales y se mueve del valle a la montaña según la época del año. Antaño era una vaca lechera, pero debido a la calidad de su carne, muy jugosa y tierna, se decidio criarla para el consumo. </li>
+                    </ul>
+                </div>
+
+                <div class="imagenes"> <img src="imagenes/vacas.webp"> <img src="imagenes/vacas2.jpeg"> </div>
             </article>
         </section>
-        <section class="formulario">
-            <h4>Formulario para la visita guiada</h4>
-            <input class="cajitas" type="text" name="nombres" id="nombres" placeholder="Introduzca su nombre" required>
-            <input class="cajitas" type="text" name="apellidos" id="apellidos" placeholder="Introduzca sus apellidos">
-            <input class="cajitas" type="email" name="correo" id="correo" placeholder="Introduzca su correo electrónico" required>
-            <input class="cajitas" type="number" name="nacido" id="nacido" placeholder="Introduzca su edad" min="12" required>
-            <div class="sexo"> <input class="sexo" type="radio" name="hm" value="h" required> Hombre
-                <input type="radio" name="hm" value="m" required> Mujer
-            </div>
-            <input class="botones" type="submit" value="Enviar">
+        <section>
+            <h3 class="titulosecciones">Nuestros cerdos</h3>
+            <article class='cuerposecciones'>
+                <h4>Tenemos dos tipos de ganado porcino. Los Gochos Asturceltas y los de raza Iberica. A continuación os dejaremos una breve descripción de cada una y sus respectivas fotos:</h4>
+                <div>
+                    <ul class="razas">
+                        <li class="razas">Gochu Asturcelta: El gochu asturcelta o cerdo asturiano es una raza de ganado porcino presente en Asturias que se dio por extinguida hace unas cuantas décadas. Los romanos ya documentaron la calidad de los jamones producidos. Su peso suele oscilar entre los 250 y 300 kilos. Se deben dejar en el monte. </li>
+                        <li class="razas">Cerdo iberico: Son animales muy apreciados en el sector alimentario para la producción de jamón ibérico y todo tipo de embutidos. Pueden llegar a pesar 160 kg. Su carne es especialmente sabrosa y tiene poco o nada tiene que ver con la carne de otros tipos de cerdo. </li>
+                    </ul>
+                </div>
+
+                <div class="imagenes"> <img src="imagenes/cerdo.jpeg"> <img src="imagenes/cerdo2.jpeg"> </div>
+            </article>
+        </section>
+        <section>
+            <h3 class="titulosecciones">Nuestras gallinas</h3>
+            <article class='cuerposecciones'>
+                <h4>Tenemos dos tipos de ganado avícola. Las Leghorn y las Pintas asturianas. A continuación os dejaremos una breve descripción de cada una y sus respectivas fotos:</h4>
+                <div>
+                    <ul class="razas">
+                        <li class="razas">Leghorn: Estas gallinas son criadas especialmente para dar un mayor rendimiento en cuanto a la puesta de huevos, y así elevar la producción y ser de beneficio y rentabilidad. Se estima que al año ponen una media de 300 huevos.</li>
+                        <li class="razas">Pinta asturiana: Son las únicas gallinas autóctonas de Asturias. Son muy buenas ponedoras. Se estima que ponen una media de 160 huevos al año. </li>
+                    </ul>
+                </div>
+
+                <div class="imagenes"> <img src="imagenes/gallinas.webp"> <img src="imagenes/gallinas2.webp"> </div>
+            </article>
+        </section>
+        <section>
+            <h3 class="titulosecciones">Nuestras ovejas</h3>
+            <article class='cuerposecciones'>
+                <h4>Tenemos dos tipos de ganado ovino. Las ovejas Merinas y las Xaldas. A continuación os dejaremos una breve descripción de cada una y sus respectivas fotos:</h4>
+                <div>
+                    <ul class="razas">
+                        <li class="razas">Merina: Es la raza ovina más extendida por el mundo. Tiene mucha resistencia y facilidad para los grandes desplazamientos. Poseen un significado especial, tanto para la economía, política y sociedad, representando un capítulo muy importante en la historia de España. Puede producir lana, leche y carne.</li>
+                        <li class="razas">Xalda: Es autóctona de asturias. Llegó a estar al borde de la extinción en el siglo XX debido, entre otros factores, al abandono del mundo rural, a la introducción de otras razas que supuestamente daban un mayor rendimiento económico y al uso forestal de los antiguos pastizales de los montes comunales.</li>
+                    </ul>
+                </div>
+
+                <div class="imagenes"> <img src="imagenes/oveja.jpeg"> <img src="imagenes/oveja2.jpg"> </div>
+            </article>
         </section>
     </main>
     <footer>
