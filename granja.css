@@ -170,7 +170,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.avatar {border-radius: 100%; margin-top: 5%}
+.avatar {border-radius: 100%; margin-top: px}
 .compras {
     display: -ms-flexbox;
     display: flex;
@@ -471,7 +471,7 @@ li a:hover {
     opacity: 2;
 }
 
-.Elemento:hover .ImagenElemento {
+.texto:hover .texto {
     filter: blur(2px);
 }
 
