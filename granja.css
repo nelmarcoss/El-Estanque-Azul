@@ -64,7 +64,8 @@ main section:not(:last-child) {
 footer {
     padding: 1em 1.5em;
     background-color: chocolate;
-    text-align: right; color: white
+    text-align: right;
+    color: white
 }
 
 @media only screen and (max-width: 576px) {
@@ -168,6 +169,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.avatar {border-radius: 100%}
 .compras {
     display: -ms-flexbox;
     display: flex;
@@ -220,7 +223,8 @@ body {
     text-align: center;
     margin-bottom: 2%;
     margin-top: 1%;
-    width: 30%; border-radius: 100%
+    width: 30%;
+    border-radius: 100%
 }
 
 .instagram {
@@ -256,7 +260,8 @@ ul.razas li {
 
 ul.razas li:before {
     content: "►";
-    color: green; margin: 3%
+    color: green;
+    margin: 3%
 }
 
 .centrado {
@@ -335,7 +340,7 @@ ul.razas li:before {
 nav {
     background-color: chocolate;
     height: 80px;
-    width: 100%;
+    width: 100%; position: fixed
 }
 
 .enlace {
@@ -408,8 +413,80 @@ li a:hover {
         text-align: center;
         transition: all 1s
     }
-    nav ul li {display: block; margin: 50px 0; margin: 10px}
-    nav ul li a {font-size: 20px}
-    li a:hover, li a.active { background: none; color: dodgerblue}
-    #check:checked ~ ul {left: 0}
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        margin: 10px
+    }
+
+    nav ul li a {
+        font-size: 20px
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        color: darkgreen
+    }
+
+    #check:checked ~ ul {
+        left: 0
+    }
 }
+
+
+.imagenrazas {
+    width: 100%;
+    height: auto; margin-top: 10%
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30vmax, 1fr));
+    grid-gap: 1em
+}
+
+.titulorazas {
+    font-size: 2.5vh;
+    font-weight: bold;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 90, 0.4);
+    color: white;
+    opacity: 0;
+    z-index: 1
+}
+
+.texto {
+    position: relative;
+}
+
+.texto:hover .titulorazas {
+    opacity: 1;
+}
+
+.Elemento:hover .ImagenElemento {
+    filter: blur(2px);
+}
+
+
+.cajainstalaciones {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    background-image: url(imagenes/instalaciones.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.videos{margin-bottom: 2%;
+    margin-top: 2%; margin-left: 25%; margin-right: 25%;
+    width: 50%;}
