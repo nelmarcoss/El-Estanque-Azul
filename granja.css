@@ -234,9 +234,10 @@ footer {
     margin-bottom: 2%;
     margin-top: 1%;
     width: 30%;
-    border-radius: 100%; display: block;
-margin-left: auto;
-margin-right: auto;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .instagram {
@@ -250,7 +251,8 @@ margin-right: auto;
 }
 
 .pad {
-    padding: 2%; text-align: center
+    padding: 2%;
+    text-align: center
 }
 
 .cajaanimales {
@@ -265,7 +267,10 @@ margin-right: auto;
 .centrado {
     text-align: center
 }
-.left {text-align: left}
+
+.left {
+    text-align: left
+}
 
 .formulario {
     width: 400px;
