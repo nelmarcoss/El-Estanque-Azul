@@ -234,7 +234,9 @@ footer {
     margin-bottom: 2%;
     margin-top: 1%;
     width: 30%;
-    border-radius: 100%
+    border-radius: 100%; display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .instagram {
@@ -248,7 +250,7 @@ footer {
 }
 
 .pad {
-    padding: 2%
+    padding: 2%; text-align: center
 }
 
 .cajaanimales {
@@ -259,7 +261,6 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .centrado {
     text-align: center
@@ -330,10 +331,6 @@ footer {
 .redesociales {
     text-align: center
 }
-
-
-
-
 
 nav {
     background-color: chocolate;
@@ -436,9 +433,6 @@ li a:hover {
     }
 }
 
-
-
-
 .cajainstalaciones {
     display: flex;
     flex-direction: column;
@@ -448,7 +442,6 @@ li a:hover {
     background-repeat: no-repeat;
 }
 
-
 .videos {
     margin-bottom: 2%;
     margin-top: 2%;
@@ -457,9 +450,6 @@ li a:hover {
     width: 80%;
 }
 
-
-
-
 .contenedor-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -467,7 +457,6 @@ li a:hover {
     padding: 20px;
     grid-gap: 20px
 }
-
 
 .animalesimagen {
     width: 100%;
