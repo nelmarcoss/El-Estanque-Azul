@@ -85,7 +85,6 @@ body {
 .titulo {
     font-size: 70;
     text-align: center;
-    padding: ;
     color: ghostwhite;
 }
 
@@ -151,7 +150,6 @@ body {
 
 .cuerposecciones {
     font-size: 20;
-    color: ;
     text-align: justify;
     padding: 5
 }
@@ -213,8 +211,7 @@ body {
     color: green;
     -ms-flex: 0 0 33.3%;
     flex: 0 0 33.3%;
-    max-width: 33%;
-    margin:
+    max-width: 33%
 }
 
 main,
