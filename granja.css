@@ -440,11 +440,6 @@ li a:hover {
     position: relative
 }
 
-@media (min-width:850px) {
-    .contenedor-grid {
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
 
 @media only screen 
     and (device-width : 414px) 
