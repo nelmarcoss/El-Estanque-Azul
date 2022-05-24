@@ -171,48 +171,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.compras {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
 
-.compras .articulo {
-    color: red;
-    -ms-flex: 0 0 33.3%;
-    flex: 0 0 33.3%;
-    max-width: 33%;
-    margin-bottom: 2px
-}
-
-.compras .precio {
-    -ms-flex: 0 0 66.6%;
-    flex: 0 0 66.6%;
-    max-width: 66.6%;
-}
-
-.compras .precio p {
-    padding-left: 1em;
-}
-
-@media only screen and (max-width: 768px) {
-    .compras {
-        display: block;
-    }
-
-    .compras .articulo,
-    .compras .precio {
-        max-width: 100%;
-    }
-}
-
-.compras .venta {
-    color: green;
-    -ms-flex: 0 0 33.3%;
-    flex: 0 0 33.3%;
-    max-width: 33%
-}
 
 main,
 footer {
